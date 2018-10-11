@@ -47,8 +47,9 @@ def add_s(words_s)
   words_s.each.with_index do |word,i|
     if word == words_s[1]
       making_plural << word
-    end
+    else
     making_plural <<(word+"s")
+  end
   end
   making_plural
 end
