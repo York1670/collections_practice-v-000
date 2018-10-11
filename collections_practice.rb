@@ -48,8 +48,8 @@ def add_s(words_s)
     if word == words_s[1]
       making_plural << word
     else
-    making_plural <<(word+"s")
-  end
+      making_plural <<(word+"s")
+    end
   end
   making_plural
 end
