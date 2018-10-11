@@ -48,4 +48,6 @@ def add_s(words_s)
       making_plural << word
     end
     making_plural <<(word+"s")
+  end
+  making_plural
 end
